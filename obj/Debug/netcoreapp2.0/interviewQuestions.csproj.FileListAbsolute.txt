@@ -1,0 +1,11 @@
+D:\Projects\InterviewQuestions\bin\Debug\netcoreapp2.0\InterviewQuestions.deps.json
+D:\Projects\InterviewQuestions\bin\Debug\netcoreapp2.0\InterviewQuestions.runtimeconfig.json
+D:\Projects\InterviewQuestions\bin\Debug\netcoreapp2.0\InterviewQuestions.runtimeconfig.dev.json
+D:\Projects\InterviewQuestions\bin\Debug\netcoreapp2.0\InterviewQuestions.dll
+D:\Projects\InterviewQuestions\bin\Debug\netcoreapp2.0\InterviewQuestions.pdb
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.csprojAssemblyReference.cache
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.csproj.CoreCompileInputs.cache
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.AssemblyInfoInputs.cache
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.AssemblyInfo.cs
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.dll
+D:\Projects\InterviewQuestions\obj\Debug\netcoreapp2.0\InterviewQuestions.pdb
