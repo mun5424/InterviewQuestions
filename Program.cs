@@ -14,7 +14,10 @@ namespace InterviewQuestions
             //LongestCommonSubsequence.test();
             //CoinChange.test();  
             //ReverseLinkedList.test(); 
-            Fibonacci.test();
+            //Fibonacci.test();
+            string a = "asd"; 
+            string b = a.TrimEnd(' ');
+            Console.WriteLine(b); 
         }
     }
 }
