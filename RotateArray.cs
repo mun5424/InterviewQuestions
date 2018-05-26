@@ -38,22 +38,10 @@
             //elegant and clever method to reverse array before k, after k, and then reverse them altogether.
             if(k > array.Length)
                 k = k % array.Length; 
-            int[] res = new int[array.Length]; 
-            
-            //copy from beginning of the array
-            for(int i = 0; i < k; i++)
-            {
-                res[i] = array[array.Length - k + i];
-            }
-            
-            //copy the rest
-            int j = 0; 
-            for(int i = k; i < array.Length; i++)
-            {
-                res[i] = array[j];
-                j++;
-            }
-            return res;
+            reverseArray(array, 0, k - 1);
+            reverseArray(array, k, array.Length - 1);
+            reverseArray(array, 0, array.Length - 1);
+            return array;
 
         }
         public static int[] reverseArray(int[] array, int start, int end)
