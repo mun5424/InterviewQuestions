@@ -15,15 +15,17 @@ namespace InterviewQuestions
 
         public int MaxProfit(int[] prices)
         {
-            if (prices.Length < 2)
+            if(prices.Length <= 1)
+                return 0; 
+            int min = prices[0];
+            int result = 0;
+            
+            for(int i =1; i < prices.Length; i++)
             {
-                
+                result = Math.Max(result, prices[i]-min); 
+                min = Math.Min(min, prices[i]); 
             }
-            int min = 0; 
-            for(int i = 0; i < prices.Length; i++)
-            {
-            }
-            return 0; 
+            return result; 
         }
     }
 }
